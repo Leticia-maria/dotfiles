@@ -1,2 +1,2 @@
-# PC_configuration
+# dotfiles
 Personal configuration files of my computer
