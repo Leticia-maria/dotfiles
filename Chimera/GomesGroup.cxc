@@ -1,0 +1,16 @@
+color H white
+color S #F1C40F
+color O #C0392B
+color F #8E44AD
+color Cl #27AE60
+color C #9C9C9C
+color N #2980B9
+style ball
+color halfbond false
+size stickRadius 0.075
+color #303030 target b
+graphics silhouettes true
+set bgColor white
+lighting full intensity 0.5 shadows false
+material specularReflectivity 0
+volume all style surface level -0.05 color #ef29298f level 0.05 color #3a58eb8f
