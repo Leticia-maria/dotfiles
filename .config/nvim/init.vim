@@ -18,6 +18,8 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 call plug#begin('~/.local/share/nvim/site/plugged')
+Plug 'junegunn/fzf.vim'
+Plug 'BurntSushi/ripgrep'
 Plug 'vim-airline/vim-airline'
 Plug 'fratajczak/one-monokai-vim'
 Plug 'ryanoasis/vim-devicons'
