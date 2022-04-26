@@ -11,13 +11,15 @@ set splitbelow splitright
 set title
 set ttimeoutlen=0
 set wildmenu
-
+set nocompatible
+filetype plugin on
 " Tabs size
 set expandtab
 set shiftwidth=2
 set tabstop=2
 call plug#begin('~/.local/share/nvim/site/plugged')
 Plug 'vim-airline/vim-airline'
+Plug 'fratajczak/one-monokai-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
@@ -44,6 +46,8 @@ Plug 'jaredgorski/spacecamp'
 Plug 'lifepillar/vim-solarized8'
 Plug 'reedes/vim-colors-pencil'
 Plug 'junegunn/vim-easy-align'
+Plug 'crusoexia/vim-monokai'
+Plug 'vimwiki/vimwiki'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -51,7 +55,7 @@ call plug#end()
 " Color Settings
 """""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
-colorscheme dracula
+colorscheme monokai
 set splitright
 set splitbelow
 " move line or visually selected block - alt+j/k
